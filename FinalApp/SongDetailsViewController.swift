@@ -54,7 +54,7 @@ class SongDetailsViewController: UIViewController  {
         songDetailVC.player?.seekToTime(startTime)
         
        self.presentViewController(songDetailVC, animated: true){
-         songDetailVC.player!.play() }
+        songDetailVC.player!.play() }
       
         
         
